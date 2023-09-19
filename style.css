@@ -1,0 +1,147 @@
+body {
+    background-color: #482e28;
+    text-align: center;
+    font-family: 'Calibri';
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 60px;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 40px;
+}
+
+p {
+    color: #ffffff;
+    font-size: 20px;  
+}
+
+#navbar {
+    background-color:#313435;
+    border-style:solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#navbar a {
+    color: #CACCCE;
+    font-size: 20px;
+
+}
+
+#navbar a:hover {
+    font-size: 30px;
+    color: #BC5824;
+    font-weight: bold;
+}
+
+
+/* .flex-container{
+    display:flex;
+    flex-direction: column;
+    background-color: chartreuse;
+} */
+        
+.flex-container {
+    display: flex;
+    /* background-color: #871919; */
+    height: 1200px;
+    justify-content: space-between;
+    /* margin: 10px;
+    padding: 20px;
+    font-size: 30px; */
+}
+
+#homepageart {
+    display: flex;
+    justify-content: space-around;
+    border: #482e28 20px solid;
+}
+
+.home-page-text-container {
+    display: flex;
+    justify-content: center;
+    /* border: #ffffff 20px solid; */
+}
+
+.home-page-text {
+    width: 50%;
+    text-align: center;
+    font-size: 25px;
+    /* border: #CACCCE solid 2px; */
+}
+
+.home-page-space {
+    height: 200px
+}
+
+.drinks-container {
+    display: flex;
+    flex-direction: column;
+    /* border: chartreuse 2px solid; */
+    border: #BC5824 10px solid;
+    background-color: #BC5824;
+    height: 450px;
+    width: 30%;
+    align-items: center;
+}
+
+.drinks-page-art {
+    width: 95%;  
+}
+
+.drink-para {
+    width: 95%;
+    font-size: 25px;
+}
+
+.pastry-container {
+    display: flex;
+    flex-direction: column;
+    /* border: chartreuse 2px solid; */
+    border: #BC5824 10px solid;
+    background-color: #BC5824;
+    height: 450px;
+    width: 30%;
+    align-items: center;
+}
+
+.pastry-page-art {
+    width: 95%
+}
+
+.pastry-para {
+    width: 95%;
+    font-size: 25px;
+}
+
+.navbarbottom {
+    background-color: #313435;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-style:solid;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.navbarbottom a {
+    color: #CACCCE;
+    font-size: 20px;
+}
+
+.navbarbottom a:hover {
+    font-size: 30px;
+    color: #BC5824;
+    font-weight: bold;
+}
+
+
+
